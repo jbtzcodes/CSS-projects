@@ -25,10 +25,13 @@ body {
 }
 
 .marquee:after {
-  content: "FRANCE - ARGENTINE - ANGLETERRE - MEXIQUE - COSTA RICA";
+  content:"FRANCE - ARGENTINE - ANGLETERRE - MEXIQUE - COSTA RICA"
 }
+
 @keyframes marquee {
-  0% {transform: translateX(0)}
-  100% {transform: translateX(-50%)}
+  0%{transform: translateX(0)}
+  100%{transform: translateX(-50%)}
 }
+
+
 
